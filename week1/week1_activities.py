@@ -37,10 +37,10 @@ animals = tuple(animals)
 #                           (actually, it's because tuples don't have an append method because they are immutable)
 
 animals_dict = {'Lion': 'Brave',
-           'Tiger': 'Fierce',
-           'Elephant': 'Large',
-           'Giraffe': 'Tall',
-           'Zebra': 'Striped'}
+               'Tiger': 'Fierce',
+               'Elephant': 'Large',
+               'Giraffe': 'Tall',
+               'Zebra': 'Striped'}
 
 animal_names = []
 for name in animals_dict:
